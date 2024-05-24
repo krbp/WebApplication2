@@ -10,12 +10,22 @@ namespace WebApplication2.Controllers
         }
 
         [Route("/Yell")]
-        public String YellHello()
+        public String Yell()
         {
             return "HELLO";
         }
 
         [Route("/Say")]
+        public String Say()
+        {
+            return "Hello";
+        }
+
+        public String YellHello()
+        {
+            return "HELLO";
+        }
+
         public String SayHello()
         {
             return "Hello";
